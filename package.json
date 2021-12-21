@@ -6,10 +6,10 @@
   "private": true,
   "scripts": {
     "build": "webpack",
-    "dev": "wrangler dev -e dev",
+    "dev": "wrangler dev -e development",
     "deploy": "wrangler publish",
     "sync": "slash-up sync",
-    "sync:dev": "slash-up sync -e dev",
+    "sync:dev": "slash-up sync -e development",
     "lint": "npx eslint --ext .ts .",
     "lint:fix": "npx eslint --ext .ts . --fix"
   },
