@@ -7,7 +7,7 @@ module.exports = {
   // The Application ID of the Discord bot
   applicationId: '',
   // This is where the path to command files are
-  commandsPath: './src/commands',
+  commandPath: './src/commands',
   // You can use different environments with --env (-e)
   env: {
     development: {
