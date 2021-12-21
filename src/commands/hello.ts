@@ -1,12 +1,10 @@
 import { SlashCommand, CommandOptionType, SlashCreator, CommandContext } from 'slash-create';
-import { devGuild } from '../util';
 
 export default class BotCommand extends SlashCommand {
   constructor(creator: SlashCreator) {
     super(creator, {
       name: 'hello',
       description: 'Says hello to you.',
-      guildIDs: devGuild,
       options: [
         {
           type: CommandOptionType.STRING,

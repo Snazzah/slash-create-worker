@@ -8,6 +8,3 @@ command = "npm run build"
 
 [build.upload]
 format = "service-worker"
-
-[env.development]
-vars = { COMMANDS_DEV_GUILD = "" }
