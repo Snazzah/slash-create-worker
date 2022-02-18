@@ -37,7 +37,7 @@ module.exports = {
   },
   overrides: [
     {
-      files: ['slash-up.config.js'],
+      files: ['slash-up.config.js', 'webpack.config.js'],
       env: {
         node: true
       }
