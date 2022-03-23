@@ -40,11 +40,6 @@
   dependencies:
     "@cspotcode/source-map-consumer" "0.8.0"
 
-"@discordjs/collection@^0.3.2":
-  version "0.3.2"
-  resolved "https://registry.yarnpkg.com/@discordjs/collection/-/collection-0.3.2.tgz#3c271dd8a93dad89b186d330e24dbceaab58424a"
-  integrity sha512-dMjLl60b2DMqObbH1MQZKePgWhsNe49XkKBZ0W5Acl5uVV43SN414i2QfZwRI7dXAqIn8pEWD2+XXQFn9KWxqg==
-
 "@eslint/eslintrc@^0.4.3":
   version "0.4.3"
   resolved "https://registry.yarnpkg.com/@eslint/eslintrc/-/eslintrc-0.4.3.tgz#9e42981ef035beb3dd49add17acb96e8ff6f394c"
@@ -2032,11 +2027,6 @@ repeat-string@^1.6.1:
   resolved "https://registry.yarnpkg.com/repeat-string/-/repeat-string-1.6.1.tgz#8dcae470e1c88abc2d600fff4a776286da75e637"
   integrity sha1-jcrkcOHIirwtYA//Sndihtp15jc=
 
-require-all@^3.0.0:
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/require-all/-/require-all-3.0.0.tgz#473d49704be310115ce124f77383b1ebd8671312"
-  integrity sha1-Rz1JcEvjEBFc4ST3c4Ox69hnExI=
-
 require-directory@^2.1.1:
   version "2.1.1"
   resolved "https://registry.yarnpkg.com/require-directory/-/require-directory-2.1.1.tgz#8c64ad5fd30dab1c976e2344ffe7f792a6a6df42"
@@ -2195,17 +2185,6 @@ shebang-regex@^3.0.0:
   resolved "https://registry.yarnpkg.com/shebang-regex/-/shebang-regex-3.0.0.tgz#ae16f1644d873ecad843b0307b143362d4c42172"
   integrity sha512-7++dFhtcx3353uBaq8DDR4NuxBetBzC7ZQOhmTQInHEd6bSrXdiEyzCvG07Z44UYdLShWUyXt5M/yhz8ekcb1A==
 
-slash-create@^4.1.1:
-  version "4.4.2"
-  resolved "https://registry.yarnpkg.com/slash-create/-/slash-create-4.4.2.tgz#00fb98cc0fca54dde10aef263835fd129ae96408"
-  integrity sha512-FC0Xb1dH24EiFbuhbqJZyeMcAbrS/fvXZ9sQjUhzg+InY5KUJYCDq84xhTRuRadWmabpo1s4lreUviCc1EEuaA==
-  dependencies:
-    "@discordjs/collection" "^0.3.2"
-    eventemitter3 "^4.0.7"
-    lodash.isequal "^4.5.0"
-    require-all "^3.0.0"
-    tweetnacl "^1.0.3"
-
 slash-create@^5.0.1:
   version "5.2.1"
   resolved "https://registry.yarnpkg.com/slash-create/-/slash-create-5.2.1.tgz#d8930cfa4b23f272025d43f66869f7bf9ba54207"
@@ -2215,7 +2194,16 @@ slash-create@^5.0.1:
     lodash.isequal "^4.5.0"
     tweetnacl "^1.0.3"
 
-slash-up@^1.0.5:
+slash-create@^5.3.0:
+  version "5.3.0"
+  resolved "https://registry.yarnpkg.com/slash-create/-/slash-create-5.3.0.tgz#6b31eb2211c22408fac0b451597d066c2e15f8d7"
+  integrity sha512-MeKXLy0ozQjl5Wc2IQFPiIZA2WXfUg8RnYvX3jsZG8ZrDQ36gjhjjVQ10EPVIa4eyrdnHRXkjdjrGutHYmH7Qg==
+  dependencies:
+    eventemitter3 "^4.0.7"
+    lodash.isequal "^4.5.0"
+    tweetnacl "^1.0.3"
+
+slash-up@^1.0.11:
   version "1.0.11"
   resolved "https://registry.yarnpkg.com/slash-up/-/slash-up-1.0.11.tgz#09301cfe666a878911b00dde383d1706340c0568"
   integrity sha512-MAscCTc7nduHdcuPmXtNakx0fyWtmZhV0UPAWtBYM3454LGze7sUPLCY+B4CsDWdVlv7reoxewuBcTvaVIXR3Q==

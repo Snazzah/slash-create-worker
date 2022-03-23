@@ -14,7 +14,8 @@ module.exports = {
       https: false,
       fs: false,
       fastify: false,
-      express: false
+      express: false,
+      path: false
     }
   },
   module: {
