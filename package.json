@@ -2,37 +2,26 @@
   "name": "slash-create-worker-template",
   "description": "A template for slash-create with Cloudflare Workers",
   "author": "Snazzah",
-  "main": "dist/worker.js",
+  "main": "src/index.ts",
   "private": true,
   "scripts": {
-    "build": "webpack",
-    "dev": "wrangler dev -l",
+    "dev": "wrangler dev",
     "deploy": "wrangler publish",
     "sync": "slash-up sync",
     "sync:dev": "slash-up sync -e development",
     "lint": "eslint --ext .ts .",
-    "lint:fix": "eslint --ext .ts . --fix",
-    "postinstall": "patch-package"
+    "lint:fix": "eslint --ext .ts . --fix"
   },
   "devDependencies": {
-    "@cloudflare/workers-types": "^2.0.0",
-    "@typescript-eslint/eslint-plugin": "^4.31.2",
-    "@typescript-eslint/parser": "^4.31.2",
-    "dotenv": "^10.0.0",
-    "eslint": "^7.32.0",
-    "eslint-config-prettier": "^8.3.0",
-    "eslint-plugin-prettier": "^4.0.0",
-    "prettier": "^2.0.5",
-    "rimraf": "^3.0.2",
-    "slash-create": "^5.5.2",
-    "slash-up": "^1.1.2",
-    "ts-loader": "^7.0.5",
-    "typescript": "^4.4.3",
-    "webpack": "^5.33.2",
-    "webpack-cli": "^3.3.12",
-    "wrangler": "^2.0.5"
-  },
-  "dependencies": {
-    "patch-package": "^6.4.7"
+    "@cloudflare/workers-types": "^4.20231025.0",
+    "@typescript-eslint/eslint-plugin": "^6.10.0",
+    "@typescript-eslint/parser": "^6.10.0",
+    "eslint": "^8.53.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-prettier": "^5.0.1",
+    "prettier": "^3.0.0",
+    "slash-create": "^6.0.1",
+    "slash-up": "^1.4.2",
+    "wrangler": "^3.15.0"
   }
 }

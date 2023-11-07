@@ -1,6 +1,5 @@
 {
   "recommendations": [
-    "deepscan.vscode-deepscan",
     "dbaeumer.vscode-eslint",
     "esbenp.prettier-vscode",
     "editorconfig.editorconfig"

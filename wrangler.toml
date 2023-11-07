@@ -1,0 +1,3 @@
+name = "slash-create-worker-template"
+main = "src/index.ts"
+compatibility_date = "2023-10-22"

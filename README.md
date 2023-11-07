@@ -30,8 +30,6 @@ Afterwards, run `wrangler login` to login to your Cloudflare account with OAuth:
 wrangler login
 ```
 
-Copy `wrangler.example.toml` into `wrangler.toml`. Make sure to fill in your account ID in the config and update the name of the worker. You can find your account ID [here](https://dash.cloudflare.com/?to=/:account/workers) towards the right side.
-
 ### Filling in secrets
 You can enter in environment secrets with `wrangler secret put`, here are the keys that are required to run this:
 ```sh

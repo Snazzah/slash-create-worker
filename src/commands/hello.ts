@@ -1,4 +1,4 @@
-import { SlashCommand, CommandOptionType, SlashCreator, CommandContext } from 'slash-create';
+import { SlashCommand, CommandOptionType, SlashCreator, CommandContext } from 'slash-create/web';
 
 export default class BotCommand extends SlashCommand {
   constructor(creator: SlashCreator) {
